@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		662AA8A71B9FFC45005D2351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8A61B9FFC45005D2351 /* AppDelegate.swift */; };
-		662AA8A91B9FFC45005D2351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8A81B9FFC45005D2351 /* ViewController.swift */; };
 		662AA8AC1B9FFC45005D2351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8AA1B9FFC45005D2351 /* Main.storyboard */; };
 		662AA8AE1B9FFC45005D2351 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8AD1B9FFC45005D2351 /* Images.xcassets */; };
 		662AA8B11B9FFC45005D2351 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8AF1B9FFC45005D2351 /* LaunchScreen.xib */; };
 		662AA8BD1B9FFC45005D2351 /* iOSNoteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8BC1B9FFC45005D2351 /* iOSNoteBookTests.swift */; };
+		662AA8C71B9FFCDC005D2351 /* XibTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8C61B9FFCDC005D2351 /* XibTest.xib */; };
+		662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8C81B9FFEDE005D2351 /* XibTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		662AA8A11B9FFC45005D2351 /* iOSNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		662AA8A51B9FFC45005D2351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662AA8A61B9FFC45005D2351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		662AA8A81B9FFC45005D2351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		662AA8AB1B9FFC45005D2351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662AA8AD1B9FFC45005D2351 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		662AA8B01B9FFC45005D2351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		662AA8B61B9FFC45005D2351 /* iOSNoteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSNoteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662AA8BB1B9FFC45005D2351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662AA8BC1B9FFC45005D2351 /* iOSNoteBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSNoteBookTests.swift; sourceTree = "<group>"; };
+		662AA8C61B9FFCDC005D2351 /* XibTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTest.xib; sourceTree = "<group>"; };
+		662AA8C81B9FFEDE005D2351 /* XibTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				662AA8A61B9FFC45005D2351 /* AppDelegate.swift */,
-				662AA8A81B9FFC45005D2351 /* ViewController.swift */,
+				662AA8CA1B9FFEE5005D2351 /* XibTest */,
 				662AA8AA1B9FFC45005D2351 /* Main.storyboard */,
 				662AA8AD1B9FFC45005D2351 /* Images.xcassets */,
 				662AA8AF1B9FFC45005D2351 /* LaunchScreen.xib */,
@@ -110,6 +112,15 @@
 				662AA8BB1B9FFC45005D2351 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		662AA8CA1B9FFEE5005D2351 /* XibTest */ = {
+			isa = PBXGroup;
+			children = (
+				662AA8C61B9FFCDC005D2351 /* XibTest.xib */,
+				662AA8C81B9FFEDE005D2351 /* XibTestViewController.swift */,
+			);
+			name = XibTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 				662AA8AC1B9FFC45005D2351 /* Main.storyboard in Resources */,
 				662AA8B11B9FFC45005D2351 /* LaunchScreen.xib in Resources */,
 				662AA8AE1B9FFC45005D2351 /* Images.xcassets in Resources */,
+				662AA8C71B9FFCDC005D2351 /* XibTest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662AA8A91B9FFC45005D2351 /* ViewController.swift in Sources */,
+				662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */,
 				662AA8A71B9FFC45005D2351 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
