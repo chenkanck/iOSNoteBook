@@ -14,6 +14,9 @@
 		662AA8BD1B9FFC45005D2351 /* iOSNoteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8BC1B9FFC45005D2351 /* iOSNoteBookTests.swift */; };
 		662AA8C71B9FFCDC005D2351 /* XibTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8C61B9FFCDC005D2351 /* XibTest.xib */; };
 		662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8C81B9FFEDE005D2351 /* XibTestViewController.swift */; };
+		662AA8CC1BA09990005D2351 /* XibTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8CB1BA09990005D2351 /* XibTest2.swift */; };
+		662AA8CE1BA099A0005D2351 /* XibTest2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8CD1BA099A0005D2351 /* XibTest2.xib */; };
+		662AA8D01BA09A71005D2351 /* XibTest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		662AA8BC1B9FFC45005D2351 /* iOSNoteBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSNoteBookTests.swift; sourceTree = "<group>"; };
 		662AA8C61B9FFCDC005D2351 /* XibTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTest.xib; sourceTree = "<group>"; };
 		662AA8C81B9FFEDE005D2351 /* XibTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibTestViewController.swift; sourceTree = "<group>"; };
+		662AA8CB1BA09990005D2351 /* XibTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibTest2.swift; sourceTree = "<group>"; };
+		662AA8CD1BA099A0005D2351 /* XibTest2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTest2.xib; sourceTree = "<group>"; };
+		662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibTest2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,9 @@
 			children = (
 				662AA8C61B9FFCDC005D2351 /* XibTest.xib */,
 				662AA8C81B9FFEDE005D2351 /* XibTestViewController.swift */,
+				662AA8CB1BA09990005D2351 /* XibTest2.swift */,
+				662AA8CD1BA099A0005D2351 /* XibTest2.xib */,
+				662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */,
 			);
 			name = XibTest;
 			sourceTree = "<group>";
@@ -206,6 +215,7 @@
 				662AA8AC1B9FFC45005D2351 /* Main.storyboard in Resources */,
 				662AA8B11B9FFC45005D2351 /* LaunchScreen.xib in Resources */,
 				662AA8AE1B9FFC45005D2351 /* Images.xcassets in Resources */,
+				662AA8CE1BA099A0005D2351 /* XibTest2.xib in Resources */,
 				662AA8C71B9FFCDC005D2351 /* XibTest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */,
+				662AA8CC1BA09990005D2351 /* XibTest2.swift in Sources */,
 				662AA8A71B9FFC45005D2351 /* AppDelegate.swift in Sources */,
+				662AA8D01BA09A71005D2351 /* XibTest2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

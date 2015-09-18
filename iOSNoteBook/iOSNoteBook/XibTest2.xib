@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XibTest2" customModule="iOSNoteBook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="236" height="219"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8c8-IL-d8j">
+                    <rect key="frame" x="0.0" y="0.0" width="236" height="198"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uig-CR-abe">
+                    <rect key="frame" x="0.0" y="198" width="236" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="uig-CR-abe" secondAttribute="bottom" id="6wM-PZ-61u"/>
+                <constraint firstItem="uig-CR-abe" firstAttribute="top" secondItem="8c8-IL-d8j" secondAttribute="bottom" id="MYR-H6-5zn"/>
+                <constraint firstItem="8c8-IL-d8j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ved-xF-nYo"/>
+                <constraint firstItem="8c8-IL-d8j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dcP-tJ-mIL"/>
+                <constraint firstAttribute="trailing" secondItem="uig-CR-abe" secondAttribute="trailing" id="kgh-Em-FaU"/>
+                <constraint firstItem="uig-CR-abe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pjl-kQ-jlw"/>
+                <constraint firstAttribute="trailing" secondItem="8c8-IL-d8j" secondAttribute="trailing" id="vUx-b1-4Rf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="8c8-IL-d8j" id="5HX-OZ-7ya"/>
+                <outlet property="label" destination="uig-CR-abe" id="QVf-Ne-KGz"/>
+            </connections>
+            <point key="canvasLocation" x="637" y="124.5"/>
+        </view>
+    </objects>
+</document>
