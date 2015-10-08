@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  iOSNoteBook
+//  pooooo
 //
-//  Created by Kan Chen on 9/8/15.
+//  Created by Kan Chen on 9/18/15.
 //  Copyright (c) 2015 Zap. All rights reserved.
 //
 
@@ -16,11 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let split = self.window!.rootViewController as! UISplitViewController
-        let matster = (split.viewControllers.first as! UINavigationController).topViewController as! MasterViewController
-        let detail = split.viewControllers.last as! DetailViewController
-        
-        matster.delegate = detail
         return true
     }
 

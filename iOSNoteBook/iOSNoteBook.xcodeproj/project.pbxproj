@@ -17,6 +17,10 @@
 		662AA8CC1BA09990005D2351 /* XibTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8CB1BA09990005D2351 /* XibTest2.swift */; };
 		662AA8CE1BA099A0005D2351 /* XibTest2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8CD1BA099A0005D2351 /* XibTest2.xib */; };
 		662AA8D01BA09A71005D2351 /* XibTest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */; };
+		662AA8D21BACCF12005D2351 /* SplitView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662AA8D11BACCF12005D2351 /* SplitView.storyboard */; };
+		662AA8D51BACD14D005D2351 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8D41BACD14D005D2351 /* MasterViewController.swift */; };
+		662AA8D71BACD48D005D2351 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8D61BACD48D005D2351 /* DetailViewController.swift */; };
+		66331C721BC657AC00ED9059 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66331C711BC657AC00ED9059 /* Notification.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		662AA8CB1BA09990005D2351 /* XibTest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibTest2.swift; sourceTree = "<group>"; };
 		662AA8CD1BA099A0005D2351 /* XibTest2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTest2.xib; sourceTree = "<group>"; };
 		662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibTest2ViewController.swift; sourceTree = "<group>"; };
+		662AA8D11BACCF12005D2351 /* SplitView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SplitView.storyboard; sourceTree = "<group>"; };
+		662AA8D41BACD14D005D2351 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		662AA8D61BACD48D005D2351 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		66331C711BC657AC00ED9059 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				662AA8A61B9FFC45005D2351 /* AppDelegate.swift */,
+				662AA8D31BACD11B005D2351 /* SplitView */,
 				662AA8CA1B9FFEE5005D2351 /* XibTest */,
 				662AA8AA1B9FFC45005D2351 /* Main.storyboard */,
+				662AA8D11BACCF12005D2351 /* SplitView.storyboard */,
 				662AA8AD1B9FFC45005D2351 /* Images.xcassets */,
 				662AA8AF1B9FFC45005D2351 /* LaunchScreen.xib */,
 				662AA8A41B9FFC45005D2351 /* Supporting Files */,
@@ -130,6 +140,16 @@
 				662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */,
 			);
 			name = XibTest;
+			sourceTree = "<group>";
+		};
+		662AA8D31BACD11B005D2351 /* SplitView */ = {
+			isa = PBXGroup;
+			children = (
+				662AA8D41BACD14D005D2351 /* MasterViewController.swift */,
+				662AA8D61BACD48D005D2351 /* DetailViewController.swift */,
+				66331C711BC657AC00ED9059 /* Notification.swift */,
+			);
+			name = SplitView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +196,7 @@
 		662AA8991B9FFC45005D2351 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Zap;
 				TargetAttributes = {
@@ -212,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662AA8D21BACCF12005D2351 /* SplitView.storyboard in Resources */,
 				662AA8AC1B9FFC45005D2351 /* Main.storyboard in Resources */,
 				662AA8B11B9FFC45005D2351 /* LaunchScreen.xib in Resources */,
 				662AA8AE1B9FFC45005D2351 /* Images.xcassets in Resources */,
@@ -234,8 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662AA8D51BACD14D005D2351 /* MasterViewController.swift in Sources */,
 				662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */,
 				662AA8CC1BA09990005D2351 /* XibTest2.swift in Sources */,
+				66331C721BC657AC00ED9059 /* Notification.swift in Sources */,
+				662AA8D71BACD48D005D2351 /* DetailViewController.swift in Sources */,
 				662AA8A71B9FFC45005D2351 /* AppDelegate.swift in Sources */,
 				662AA8D01BA09A71005D2351 /* XibTest2ViewController.swift in Sources */,
 			);
@@ -367,6 +392,7 @@
 				INFOPLIST_FILE = iOSNoteBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -377,6 +403,7 @@
 				INFOPLIST_FILE = iOSNoteBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -433,6 +460,7 @@
 				662AA8C21B9FFC46005D2351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		662AA8C31B9FFC46005D2351 /* Build configuration list for PBXNativeTarget "iOSNoteBookTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +469,7 @@
 				662AA8C51B9FFC46005D2351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
