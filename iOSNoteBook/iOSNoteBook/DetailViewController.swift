@@ -17,12 +17,23 @@ class DetailViewController: UIViewController {
         nt.addObservers()
         NSNotificationCenter.defaultCenter().postNotificationName("one", object: nil)
         // Do any additional setup after loading the view.
+        let de = CIDetector(ofType: CIDetectorTypeText, context: nil, options: [:])
+        let image = UIImage(named: "card2")
+        let ci = CIImage(image: image!)
+        let fe = de.featuresInImage(ci!)
+        if let f = fe[0] as? CITextFeature{
+            print("some  \(f)")
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        
     }
+    
+
     
 
     /*
