@@ -24,6 +24,8 @@
 		66F2E47A1BE57997005E40D8 /* KVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E4791BE57997005E40D8 /* KVCViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		66F2E47C1BE5870B005E40D8 /* KVOClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E47B1BE5870B005E40D8 /* KVOClass.swift */; settings = {ASSET_TAGS = (); }; };
 		66F2E47E1BEC6BC9005E40D8 /* backView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E47D1BEC6BC9005E40D8 /* backView.swift */; settings = {ASSET_TAGS = (); }; };
+		66F2E4801BF32B0D005E40D8 /* DesignableCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66F2E47F1BF32B0D005E40D8 /* DesignableCustomView.xib */; settings = {ASSET_TAGS = (); }; };
+		66F2E4821BF32D2D005E40D8 /* DesignableCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E4811BF32D2D005E40D8 /* DesignableCustomView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		66F2E4791BE57997005E40D8 /* KVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCViewController.swift; sourceTree = "<group>"; };
 		66F2E47B1BE5870B005E40D8 /* KVOClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOClass.swift; sourceTree = "<group>"; };
 		66F2E47D1BEC6BC9005E40D8 /* backView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backView.swift; sourceTree = "<group>"; };
+		66F2E47F1BF32B0D005E40D8 /* DesignableCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignableCustomView.xib; sourceTree = "<group>"; };
+		66F2E4811BF32D2D005E40D8 /* DesignableCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 				662AA8CB1BA09990005D2351 /* XibTest2.swift */,
 				662AA8CD1BA099A0005D2351 /* XibTest2.xib */,
 				662AA8CF1BA09A71005D2351 /* XibTest2ViewController.swift */,
+				66F2E47F1BF32B0D005E40D8 /* DesignableCustomView.xib */,
+				66F2E4811BF32D2D005E40D8 /* DesignableCustomView.swift */,
 			);
 			name = XibTest;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			files = (
 				662AA8D21BACCF12005D2351 /* SplitView.storyboard in Resources */,
 				662AA8AC1B9FFC45005D2351 /* Main.storyboard in Resources */,
+				66F2E4801BF32B0D005E40D8 /* DesignableCustomView.xib in Resources */,
 				662AA8B11B9FFC45005D2351 /* LaunchScreen.xib in Resources */,
 				662AA8AE1B9FFC45005D2351 /* Images.xcassets in Resources */,
 				662AA8CE1BA099A0005D2351 /* XibTest2.xib in Resources */,
@@ -268,6 +275,7 @@
 				662AA8D51BACD14D005D2351 /* MasterViewController.swift in Sources */,
 				662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */,
 				662AA8CC1BA09990005D2351 /* XibTest2.swift in Sources */,
+				66F2E4821BF32D2D005E40D8 /* DesignableCustomView.swift in Sources */,
 				66331C721BC657AC00ED9059 /* Notification.swift in Sources */,
 				66F2E47C1BE5870B005E40D8 /* KVOClass.swift in Sources */,
 				662AA8D71BACD48D005D2351 /* DetailViewController.swift in Sources */,

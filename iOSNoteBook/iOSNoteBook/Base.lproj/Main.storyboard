@@ -133,11 +133,28 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xOK-nM-bsV" customClass="DesignableCustomView" customModule="iOSNoteBook" customModuleProvider="target">
+                                <rect key="frame" x="20" y="452" width="560" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ynd-E2-7bc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="card"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="GOGOGO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusOfImage">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="xOK-nM-bsV" secondAttribute="trailing" id="KHO-dl-bwP"/>
+                            <constraint firstItem="xOK-nM-bsV" firstAttribute="leading" secondItem="scH-2H-E2v" secondAttribute="leadingMargin" id="MJm-PH-0jZ"/>
                             <constraint firstItem="noq-pB-ecs" firstAttribute="top" secondItem="kPY-40-RYG" secondAttribute="bottom" constant="36" id="gkS-WK-wJi"/>
                             <constraint firstItem="noq-pB-ecs" firstAttribute="leading" secondItem="scH-2H-E2v" secondAttribute="leadingMargin" constant="20" id="mJM-OV-LMd"/>
+                            <constraint firstItem="BHB-kQ-8MY" firstAttribute="top" secondItem="xOK-nM-bsV" secondAttribute="bottom" constant="20" id="uh3-i3-kho"/>
                         </constraints>
                     </view>
                     <connections>
@@ -146,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F9W-ve-Dq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-185" y="223"/>
+            <point key="canvasLocation" x="-358" y="202"/>
         </scene>
         <!--Xib Test2 View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -166,4 +183,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="card" width="432" height="260"/>
+    </resources>
 </document>

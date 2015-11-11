@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DesignableCustomView" customModule="iOSNoteBook" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="sPW-5m-8zj" id="Kqv-VM-3Ng"/>
+                <outlet property="imageView" destination="XOd-8k-RdI" id="gyP-g6-5WX"/>
+                <outlet property="label" destination="Ow1-gb-KDP" id="NtP-0a-Jmk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow1-gb-KDP">
+                    <rect key="frame" x="8" y="8" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XOd-8k-RdI">
+                    <rect key="frame" x="80" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="04a-zn-y4b"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPW-5m-8zj">
+                    <rect key="frame" x="8" y="90" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="pressedButton:" destination="-1" eventType="touchUpInside" id="Mwn-44-x9g"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ow1-gb-KDP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="bEM-e3-O5p"/>
+                <constraint firstItem="sPW-5m-8zj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="cgM-ie-QVz"/>
+                <constraint firstAttribute="bottom" secondItem="XOd-8k-RdI" secondAttribute="bottom" id="d9z-Qc-N9d"/>
+                <constraint firstAttribute="trailing" secondItem="XOd-8k-RdI" secondAttribute="trailing" id="eSF-AE-zpb"/>
+                <constraint firstItem="Ow1-gb-KDP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="fxQ-uW-VYb"/>
+                <constraint firstItem="XOd-8k-RdI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kft-SN-05c"/>
+                <constraint firstAttribute="bottom" secondItem="sPW-5m-8zj" secondAttribute="bottom" constant="8" id="m8F-x8-f2u"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="408" y="22"/>
+        </view>
+    </objects>
+</document>
