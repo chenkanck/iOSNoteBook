@@ -21,6 +21,9 @@
 		662AA8D51BACD14D005D2351 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8D41BACD14D005D2351 /* MasterViewController.swift */; };
 		662AA8D71BACD48D005D2351 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA8D61BACD48D005D2351 /* DetailViewController.swift */; };
 		66331C721BC657AC00ED9059 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66331C711BC657AC00ED9059 /* Notification.swift */; settings = {ASSET_TAGS = (); }; };
+		66F2E47A1BE57997005E40D8 /* KVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E4791BE57997005E40D8 /* KVCViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		66F2E47C1BE5870B005E40D8 /* KVOClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E47B1BE5870B005E40D8 /* KVOClass.swift */; settings = {ASSET_TAGS = (); }; };
+		66F2E47E1BEC6BC9005E40D8 /* backView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F2E47D1BEC6BC9005E40D8 /* backView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		662AA8D41BACD14D005D2351 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		662AA8D61BACD48D005D2351 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		66331C711BC657AC00ED9059 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		66F2E4791BE57997005E40D8 /* KVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCViewController.swift; sourceTree = "<group>"; };
+		66F2E47B1BE5870B005E40D8 /* KVOClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVOClass.swift; sourceTree = "<group>"; };
+		66F2E47D1BEC6BC9005E40D8 /* backView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 		662AA8981B9FFC45005D2351 = {
 			isa = PBXGroup;
 			children = (
+				66F2E4791BE57997005E40D8 /* KVCViewController.swift */,
+				66F2E47D1BEC6BC9005E40D8 /* backView.swift */,
+				66F2E47B1BE5870B005E40D8 /* KVOClass.swift */,
 				662AA8A31B9FFC45005D2351 /* iOSNoteBook */,
 				662AA8B91B9FFC45005D2351 /* iOSNoteBookTests */,
 				662AA8A21B9FFC45005D2351 /* Products */,
@@ -260,7 +269,10 @@
 				662AA8C91B9FFEDE005D2351 /* XibTestViewController.swift in Sources */,
 				662AA8CC1BA09990005D2351 /* XibTest2.swift in Sources */,
 				66331C721BC657AC00ED9059 /* Notification.swift in Sources */,
+				66F2E47C1BE5870B005E40D8 /* KVOClass.swift in Sources */,
 				662AA8D71BACD48D005D2351 /* DetailViewController.swift in Sources */,
+				66F2E47A1BE57997005E40D8 /* KVCViewController.swift in Sources */,
+				66F2E47E1BEC6BC9005E40D8 /* backView.swift in Sources */,
 				662AA8A71B9FFC45005D2351 /* AppDelegate.swift in Sources */,
 				662AA8D01BA09A71005D2351 /* XibTest2ViewController.swift in Sources */,
 			);
